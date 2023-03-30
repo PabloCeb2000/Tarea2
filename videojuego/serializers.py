@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from dataclasses import fields
+#from dataclasses import fields
 from . models import Usuarios, Partidas
 
 class UsauriosSerializer(serializers.ModelSerializer):
